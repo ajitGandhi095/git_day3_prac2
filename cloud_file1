@@ -1,4 +1,4 @@
-import boto3
+import aws
 
 # AWS Credentials (Make sure you configure them using AWS CLI or environment variables)
 s3 = boto3.client('s3')
